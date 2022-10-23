@@ -1,0 +1,4 @@
+package AccessEncapsulationAndScope;
+//Access, Encapsulation, and Scope
+//Public Keyword means that any part of code can interact w it, even different classes
+//Classes are almost always public, while instance variables and methods can be either public or private
