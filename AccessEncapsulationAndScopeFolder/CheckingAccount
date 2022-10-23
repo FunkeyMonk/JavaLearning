@@ -1,3 +1,4 @@
+//Do not run this code, but have this code with Bank.java and run Bank.java
 package AccessEncapsulationAndScope;
 
 public class CheckingAccount{
