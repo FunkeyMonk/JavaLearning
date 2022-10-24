@@ -1,3 +1,27 @@
 package U2ObjectOrientedVariables;
 //i cant believe i skipped half the course w/o noticing
 //classes are basically just blueprints
+
+//-----------Sytnax---------
+
+public class Store{
+    //instance
+    String productType;
+    int inventoryCount;
+    double inventoryPrice;
+
+    //Constructor
+    public Store(String product, int count, double price){
+        productType = product;
+        inventoryCount = count;
+        inventoryPrice = price;
+    }
+
+    //Instances can only be created in main()
+    public static void main(String[] args){
+        Store lemonadeStand = new Store("lemonade", 10, 150); //This creates the instance
+        Store cookieShop = new Store("cookies", 12, 3.75);
+        System.out.println(lemonadeStand.productType); //Use dot to indicate the parameter
+        System.out.println(cookieShop.productType);
+    }
+}
